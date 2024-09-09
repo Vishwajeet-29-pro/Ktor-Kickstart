@@ -20,7 +20,7 @@ fun Application.configureRouting() {
     }
 
     routing {
-        staticResources("/task-ui", "task-ui")
+        staticResources("/static", "static")
 
         route("/tasks") {
             get("/hello") {
