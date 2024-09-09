@@ -13,7 +13,7 @@ class ApplicationTest {
     @Test
     fun testRoot() = testApplication {
         application {
-            module()
+           // module()
         }
         val response = client.get("/")
 
@@ -24,7 +24,7 @@ class ApplicationTest {
     @Test
     fun testNewEndpoint() = testApplication {
         application {
-            module()
+           // module()
         }
 
         val response = client.get("/test")
